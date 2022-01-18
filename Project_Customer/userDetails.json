@@ -1,0 +1,14 @@
+{
+  "userDetails": [
+
+    {
+      "FullName": "arif",
+      "UserName": "arif12",
+      "Password": "1234",
+      "Role": "Custromer",
+      "Email": "arif@gmail.com"
+
+    }
+    
+  ]
+}
