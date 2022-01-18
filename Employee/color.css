@@ -1,0 +1,162 @@
+body {
+    background: url("salad.jpg")no-repeat;
+    background-size: cover;
+  }
+
+  .top {
+    overflow: hidden;
+    background-color: rgb(95, 226, 19);
+    }
+
+    .topp {
+        overflow: hidden;
+        background-color: rgb(206, 144, 201);
+        }
+
+   .topps {
+            overflow: hidden;
+            background-color: rgb(100, 166, 204);
+            }
+
+  .toppp {
+         overflow: hidden;
+      background-color: rgb(194, 218, 62);
+       }
+
+
+
+
+.container {
+
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Source Sans Pro; 
+    font-weight: lighter;
+    font-size: 20px ;
+    padding: 0 20px ;
+    
+}
+
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+
+}
+
+.cool-link::hover::after {
+    width: 100%;
+    transform: width .3s ;
+}
+
+
+
+
+    .topnav {
+    float: left;
+    display: block;
+    color: #fcfafa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+  
+
+.box{ width: 900px;
+float:right;
+border:1px solid black;}
+
+.box ul li{ 
+    width: 120px;
+float:left;
+margin: 30px ;
+text-align:center;
+}
+
+.btn{
+    width: 70%;
+    background: solid #180d80 ;
+    border : 2px solid #4caf50;
+    color: rgb(78, 236, 30);
+    padding: 5px;
+    font-size: 15px;
+    cursor:pointer;
+
+}
+
+
+.btntwo{
+    width: 70%;
+    background: solid #4caf50 ;
+    border : 2px solid #090a09;
+    color: rgb(12, 11, 11);
+    padding: 5px;
+    font-size: 15px;
+    cursor:pointer;
+
+}
+
+
+.form-boxone{
+    width: 400px;
+    background: rgba(194, 9, 9, 0.8);
+    margin: auto;
+    padding: 40px 0;
+    color:rgb(33, 231, 59);
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+.wd{
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    opacity: 0.9;
+    padding: 55px;
+}
+
+
+.wdd{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(177, 22, 69);
+    opacity: 0.9;
+    padding: 55px;
+    top: 50%;
+    left: 50%;
+} 
+
+
+
+
+
+
+.wddd{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(4, 114, 165);
+    opacity: 0.9;
+    padding: 55px;
+}
+
+
